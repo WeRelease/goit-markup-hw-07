@@ -1,0 +1,86 @@
+.gang {
+  @extend %section;
+}
+.gang {
+  background: var(--bg-second-color);
+  margin: 0;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.gang__list {
+  display: flex;
+}
+
+.gang__item {
+  flex-basis: calc((100% - 3 * 30px) / 4);
+  margin-right: 30px;
+  padding-bottom: 30px;
+
+  background-color: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.gang__item:last-child {
+  margin-right: 0;
+}
+
+.gang__photo {
+  margin-bottom: 30px;
+}
+
+.gang__subtitle {
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.gang__text {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.social__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  color: var(--social-color);
+
+  transition: color var(--time) var(--anim-time), background-color var(--time) var(--anim-time);
+}
+
+.social__icon {
+  margin: auto;
+  fill: currentColor;
+}
+
+.social__link:hover,
+.social__link:focus,
+.social-footer-link:hover,
+.social-footer-link:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
