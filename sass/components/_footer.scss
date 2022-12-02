@@ -43,31 +43,7 @@ address {
 
   color: var(--primary-white-color);
 }
-.social-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-.social-footer-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
 
-  background: rgba(255, 255, 255, 0.1);
-
-  color: var(--primary-white-color);
-
-  transition: color var(--time) var(--anim-time), background var(--time) var(--anim-time);
-}
-
-.social-footer-icon {
-  margin: auto;
-  fill: currentColor;
-}
 .subscription {
   display: flex;
 }
@@ -92,6 +68,20 @@ address {
 .footer-form {
   display: flex;
   gap: 12px;
+}
+
+.footer-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: auto;
+  min-width: 200px;
+  height: 50px;
+}
+
+.footer-form-btn-icon {
+  fill: var(--primary-white-color);
 }
 
 .footer-form-field {
