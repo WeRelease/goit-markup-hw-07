@@ -12,12 +12,14 @@
 @import './components/header';
 @import './components/logo';
 @import './components/nav';
-@import './components/hero';
-@import './components/skills';
-@import './components/works';
-@import './components/gang';
-@import './components/clients';
-@import './components/portfolio';
-@import './components/footer';
 @import './components/modal';
 @import './components/social';
+
+// layout styles
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/gang';
+@import './layout/hero';
+@import './layout/portfolio';
+@import './layout/skills';
+@import './layout/works';
